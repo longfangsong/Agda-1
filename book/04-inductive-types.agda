@@ -58,7 +58,7 @@ is-empty = ¬
 is-nonempty : {l : Level} → UU l → UU l
 is-nonempty A = ¬ (is-empty A)
 
--- Proposition 4.3.3
+-- Proposition 4.3.4
 
 functor-neg : {l1 l2 : Level} {P : UU l1} {Q : UU l2} →
   (P → Q) → (¬ Q → ¬ P)
